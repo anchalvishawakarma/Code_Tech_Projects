@@ -1,5 +1,11 @@
 # 🚀 CODTECH Internship Projects
 
+
+
+
+
+
+
 This repository contains a collection of **Machine Learning**, **Deep Learning**, and **Recommendation System** tasks completed during the **CODTECH Internship**. Each task is implemented in **Python**, with clear, well-commented code and detailed methodology.
 
 ---

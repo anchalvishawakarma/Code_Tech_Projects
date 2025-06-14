@@ -1,0 +1,99 @@
+# 🐶🐱 Cat vs Dog Image Classification using CNN
+
+This project is a deep learning-based image classifier that distinguishes between images of cats and dogs using a **Convolutional Neural Network (CNN)** implemented in TensorFlow/Keras.
+
+---
+
+## 📁 Dataset
+
+The dataset should be placed in a ZIP file named `archive.zip`.
+
+### Folder Structure After Extraction:
+
+unzipped_data/
+└── animals/
+├── cat/
+│ ├── image1.png
+│ └── ...
+└── dog/
+├── image1.png
+└── ...
+
+
+
+
+---
+
+## 🚀 Project Workflow
+
+1. **Extract Dataset** from ZIP file.
+2. **Visualize Samples** from both cat and dog classes.
+3. **Preprocess Images** using `ImageDataGenerator`.
+4. **Build a CNN Model** with multiple Conv2D, MaxPooling, Dense, and Dropout layers.
+5. **Train the Model** on the dataset and validate performance.
+6. **Save the Model** in `.keras` format.
+7. **Predict Custom Images** using the trained model.
+
+---
+
+## 🧠 Model Architecture
+
+- Input: 200x200 RGB images
+- Convolutional Layers (ReLU Activation)
+- MaxPooling Layers
+- Batch Normalization
+- Dense Layers
+- Dropout for Regularization
+- Final Sigmoid Layer for Binary Classification
+
+---
+
+## 🔧 Dependencies
+
+Install the required Python packages:
+
+```bash
+pip install tensorflow matplotlib numpy pandas
+
+
+
+🖼️ How to Use
+Place archive.zip in the root directory.
+
+Run the full Python script or Jupyter Notebook.
+
+The model will:
+
+         Unzip and preprocess the dataset
+
+         Train a CNN classifier
+
+         Save the model as cat_dog_classifier.keras
+
+To test prediction:
+
+```bash
+predict_image('unzipped_data/animals/cat/00037-200124347.png')
+
+Output Visualization
+Training and validation accuracy/loss curves are plotted after training for performance evaluation.
+
+✅ Example Output
+```bash
+Raw Prediction Score: 0.143
+Prediction: Cat 🐱
+📦 Output Files
+cat_dog_classifier.keras – Trained model file
+
+Accuracy & Loss Plot – Saved/Displayed after training
+
+📌 Notes
+Avoid mixing image_dataset_from_directory with ImageDataGenerator.
+
+Ensure all images are clear and of consistent size.
+
+Model performs best with clean and balanced data.
+
+👩‍💻 Author
+Anchal Vishwakarma
+MCA Final Year | Data & AI Enthusiast

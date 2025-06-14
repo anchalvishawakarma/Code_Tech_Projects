@@ -6,7 +6,6 @@ This project builds a simple **Content-Based Recommendation System** using the *
 We use the `tcc_ceds_music.csv` file which contains the following features:
 - `track_name`
 - `artist_name`
-- `genre`
 
 ## 🚀 How It Works
 
@@ -22,4 +21,4 @@ We use the `tcc_ceds_music.csv` file which contains the following features:
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 # Run the Python file
-python music_recommender.py
+Task_4.ipynb

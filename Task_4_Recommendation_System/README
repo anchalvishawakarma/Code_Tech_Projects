@@ -1,0 +1,25 @@
+# 🎵 Music Recommendation System
+
+This project builds a simple **Content-Based Recommendation System** using the **TF-IDF technique** to recommend similar songs based on genre, artist name, and track title.
+
+## 📁 Dataset
+We use the `tcc_ceds_music.csv` file which contains the following features:
+- `track_name`
+- `artist_name`
+- `genre`
+
+## 🚀 How It Works
+
+1. **Text Feature Engineering**: Combines `track_name`, `artist_name`, and `genre` into a single string.
+2. **TF-IDF Vectorization**: Converts the text into numerical vectors.
+3. **Cosine Similarity**: Measures the similarity between songs.
+4. **Recommendations**: Based on the most similar songs (excluding the selected one).
+
+## 🧪 How to Use
+
+```bash
+# Install dependencies
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+# Run the Python file
+python music_recommender.py

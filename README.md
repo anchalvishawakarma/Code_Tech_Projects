@@ -59,7 +59,7 @@ Preprocessed subset of the [Sentiment140 dataset](http://help.sentiment140.com/h
 
 **🔮 Example:**
 
-```python
+
 predict_sentiment("The product is amazing!")  # Output: Positive 😊
 
 ---
@@ -103,53 +103,76 @@ Build a **movie recommendation system** using **Collaborative Filtering (cosine 
 - Personalized movie recommendations.
 - Evaluation of similarity metrics.
 
----
-
 ## ▶️ How to Run
 
 **Clone the repository:**
-```bash
-git clone https://github.com/your-username/codtech-internship-projects.git
+
+git clone https://github.com/your-username/codtech-internship-projects.git <br>
 cd codtech-internship-projects
 
-
-Install required libraries:
-
-```bash
+# Install required libraries:
 
 pip install -r requirements.txt
-Run individual project files:
+
+# 🧠 Machine Learning Project Collection
+
+A collection of machine learning projects including:
+
+- ✅ Decision Tree Classification  
+- ✅ Sentiment Analysis (NLP)  
+- ✅ CNN-based Image Classification  
+- ✅ SHL-Based Recommendation System  
+
+Each project is built using Python and leading ML/DL libraries.
+
+
+## 🚀 Run Individual Project Files
 
 ```bash
-
 python task1_decision_tree.py
 python task2_sentiment_analysis.py
 python task3_cnn_image_classification.py
 python task4_recommendation_system.py
+```
 
-📦 Dependencies
-            pandas
+---
 
-            numpy
+## 📦 Dependencies
 
-            matplotlib
+### ✅ Python Libraries
 
-            seaborn
+The following libraries are used in these projects:
 
-            scikit-learn
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn  
+- tensorflow  
 
-            tensorflow
+### 🛠 Built-in Python Modules
 
-Python built-in libraries: re, os
+- os  
+- re  
 
-You can install all dependencies at once using:
+Install all dependencies at once using:
 
 ```bash
-
 pip install -r requirements.txt
+```
 
-🧑‍💻 Author
-Anchal Vishwakarma
-🎓 MCA | 💼 Data Analyst & ML Enthusiast
+---
 
+## 🧑‍💻 Author
 
+**Anchal Vishwakarma**  
+🎓 MCA | 💼 Data Analyst & Machine Learning Enthusiast
+
+---
+
+## 📄 License
+
+This repository is for educational and learning purposes only.  
+Feel free to fork, share, or enhance it with credit.
+
+---
